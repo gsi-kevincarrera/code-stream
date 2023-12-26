@@ -10,9 +10,14 @@ Welcome to CodeStream, the social network for coders! We're all about turning co
 5. License
 
 ## Features
-- **Collaborative Coding**: Say goodbye to the days of scratching your head over a piece of code. With CodeStream, you can instantly share your code and get feedback from your team.
-- **Instant Deployment**: With our integrated deployment tools, you'll be laughing all the way to your next successful project deployment.
-- **Fun Environment**: Who said coding has to be boring? At CodeStream, we believe in making coding fun. After all, a team that laughs together, codes better!
+### Video Streaming
+Learn new programming concepts, languages, or frameworks from our extensive library of video content. From beginner to advanced, we've got something for everyone. Watch, learn, and code along with the best in the business.
+
+### Interactive Playground
+Try out your code in real-time with our interactive playground. It's like a sandbox for your code - experiment, make mistakes, learn, and improve. The playground supports multiple languages and frameworks, so you can code in your language of choice.
+
+### Collaborative Coding
+Say goodbye to the days of scratching your head over a piece of code. With CodeStream, you can instantly share your code and get feedback from your team. Collaborate, learn, and grow together.
 
 ## Installation
 
