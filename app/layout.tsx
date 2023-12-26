@@ -1,4 +1,6 @@
 import { ClerkProvider } from '@clerk/nextjs'
+import { ThemeProvider } from "@/components/theme-provider"
+import { dark } from '@clerk/themes'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
@@ -16,10 +18,22 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider>
-      <html lang="en">
-        <body className={inter.className}>{children}</body>
+    <ClerkProvider
+    appearance = {{
+      baseTheme: dark
+    }}
+    >
+      <html lang="en" suppressHydrationWarning>
+        <body className={inter.className}>
+          <ThemeProvider
+            attribute="class"
+            forcedTheme='dark'
+            storageKey='code-stream-theme'
+          >
+            {children}
+          </ThemeProvider>
+        </body>
       </html>
-   </ClerkProvider>
+    </ClerkProvider>
   )
 }
